@@ -59,6 +59,16 @@ h4 {
     
 }
 
+.section-heading h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #646464;
+    font-weight: 600;
+}
+.section-heading h3 {
+    font-size: 40px;
+}
+
 
 /*
 header area css
@@ -112,6 +122,57 @@ hero area css
 .hero-image img {
     width: 100%;
     border-radius: 140px 0px;
+}
+
+/*
+service-area css
+*/
+.service-area {
+    padding: 100px 0;
+}
+.all-service {
+    margin-top: 60px;
+    position: relative;
+}
+.service-area .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+.service-area .owl-nav span {
+    height: 30px;
+    width: 30px;
+    background-color:#FFFFFF;
+    color: #646464;
+    display: inline-block;
+    border-radius: 50%;
+box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.3);
+transition: 0.3s;
+}
+.service-area .owl-nav span:hover {
+    background-color: #37886b;
+    color: #FFFFFF;
+}
+.service-area .owl-next {
+    margin-left: 15px;
+}
+.single-service {
+    background: #FFFFFF;
+   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.14);
+    border-radius: 60px 0px;
+    padding: 40px 15px 40px 40px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.single-service:hover {
+    background-color: #b8855b;
+    color: #FFFFFF;
+}
+.single-service:hover h3 {
+    color: #FFFFFF;
+}
+.service-text p {
+    margin-bottom: 0;
 }
 
 /*
